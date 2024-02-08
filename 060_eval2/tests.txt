@@ -1,0 +1,19 @@
+story-step1 story.txt
+story-step1 1error1.txt
+story-step1 1error2.txt
+story-step1 1error3.txt
+
+story-step2 words.txt
+story-step2 2err1.txt
+story-step2 2err2.txt
+story-step2 2err3.txt
+
+story-step3 words.txt story2.txt
+story-step3 words.txt 3err1.txt
+story-step3 words.txt 3err2.txt
+story-step3 words.txt 3err3.txt
+
+
+story-step4 words.txt story2.txt
+story-step4 -n words.txt story2.txt
+story-step4 -n words.txt 4err1.txt

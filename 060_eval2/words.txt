@@ -1,0 +1,14 @@
+animal:dragon
+animal:walrus
+animal:dog
+animal:cat
+animal:pig
+animal:duck
+animal:human
+place:cave
+adjective:peculiar
+adjective:scary
+adjective:peaceful
+123-:five
+-1:minus1
+:

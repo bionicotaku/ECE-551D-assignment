@@ -1,0 +1,16 @@
+#error
+printSsData invalid.csv
+printSsData invalid2.csv
+printFilteredSsData sunspots_data.csv -11
+printFilteredSsData sunspots_small.csv 2000
+printSsPeriod sunspots_data.csv 2
+printSsPeriod invalid3.csv 1
+
+#success
+printSsData sunspots_data.csv
+printFilteredSsData sunspots_data.csv 1
+printFilteredSsData sunspots_data.csv 5
+printFilteredSsData sunspots_data.csv 71
+printLocalMax step3_data/sunspots_data_filtered_71_part00.csv
+printSsPeriod sunspots_data.csv 11
+printSsPeriod sunspots_data.csv 1

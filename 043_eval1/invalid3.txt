@@ -1,0 +1,2 @@
+date,number of sunspots
+1755-01,17.0
